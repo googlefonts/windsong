@@ -68492,16 +68492,7 @@ width = 301;
 );
 instances = (
 {
-customParameters = (
-{
-name = postscriptFullName;
-value = "WindSong-Pro";
-},
-{
-name = postscriptFontName;
-value = "WindSong-Pro";
-}
-);
+interpolationWeight = 400;
 instanceInterpolations = {
 "B8E2B95E-9E44-4943-9D49-9B6A251F446D" = 1;
 };
