@@ -893,19 +893,11 @@ value = 850;
 },
 {
 name = typoDescender;
-value = -515;
+value = -550;
 },
 {
 name = typoLineGap;
-value = 17;
-},
-{
-name = winAscent;
-value = 850;
-},
-{
-name = winDescent;
-value = -515;
+value = 0;
 },
 {
 name = hheaAscender;
@@ -913,7 +905,19 @@ value = 850;
 },
 {
 name = hheaDescender;
-value = -557;
+value = -550;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1930;
+},
+{
+name = winDescent;
+value = 745;
 },
 {
 name = strikeoutPosition;
