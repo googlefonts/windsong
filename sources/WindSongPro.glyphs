@@ -1,10 +1,11 @@
 {
-.appVersion = "1356";
+.appVersion = "1342";
 DisplayStrings = (
 "Tôi/space vô/space tình/space là/space th/ecircumflexacute ,/space hay/space quên/space g/odotbelow i/space v/ecircumflexgrave/space m/edotbelow ,/space ng/uhorn/ohorngrave i/space yêu/space nói/space tôi/space nghe/space tuy/space l/ohorngrave i/space tôi/space khó/space nghe./space Ch/abrevehookabove ng/space có/space gì./space Ph/ahookabove i/space ch/abreve ng/space l/ohornacute n/space khôn/space h/ohorn n/space hay/space càng/space ngu/space ng/ocircumflexacute c/space h/ohorn n",
 "/acutecomb",
 "/g.loop",
-"MM/uni1E40"
+"MM/uni1E40",
+"ÄÅÉÖÜ"
 );
 classes = (
 {
@@ -838,21 +839,20 @@ name = case;
 fontMaster = (
 {
 alignmentZones = (
-"{523, 28}",
-"{259, 35}",
-"{-2, -37}",
-"{-450, 0}"
+"{553, 12}",
+"{268, 12}",
+"{0, -12}"
 );
-ascender = 850;
+ascender = 886;
 capHeight = 705;
 customParameters = (
 {
 name = typoAscender;
-value = 850;
+value = 890;
 },
 {
 name = typoDescender;
-value = -550;
+value = -515;
 },
 {
 name = typoLineGap;
@@ -860,11 +860,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 850;
+value = 890;
 },
 {
 name = hheaDescender;
-value = -550;
+value = -515;
 },
 {
 name = hheaLineGap;
@@ -905,42 +905,35 @@ position = "{285, 396}";
 }
 );
 horizontalStems = (
-13,
-16,
-23,
-25
+12,
+22
 );
 id = "B8E2B95E-9E44-4943-9D49-9B6A251F446D";
 verticalStems = (
-17,
-24,
-26,
-28,
-34,
-55
+44,
+22
 );
 weightValue = 400;
 widthValue = 5;
-xHeight = 336;
+xHeight = 268;
 },
 {
 alignmentZones = (
-"{523, 28}",
-"{259, 35}",
-"{-2, -37}",
-"{-450, 0}"
+"{553, 12}",
+"{268, 12}",
+"{0, -12}"
 );
-ascender = 550;
-capHeight = 673;
+ascender = 886;
+capHeight = 705;
 custom = Medium;
 customParameters = (
 {
 name = typoAscender;
-value = 850;
+value = 890;
 },
 {
 name = typoDescender;
-value = -550;
+value = -515;
 },
 {
 name = typoLineGap;
@@ -948,11 +941,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 850;
+value = 890;
 },
 {
 name = hheaDescender;
-value = -550;
+value = -515;
 },
 {
 name = hheaLineGap;
@@ -983,10 +976,10 @@ name = underlineThickness;
 value = 20;
 }
 );
-descender = -500;
+descender = -515;
 horizontalStems = (
-13,
-16
+15,
+25
 );
 id = "A14CB8BB-4075-44A2-8ACC-F29FBF19C8BE";
 userData = {
@@ -995,12 +988,12 @@ GSOffsetProportional = 1;
 GSOffsetVertical = 10;
 };
 verticalStems = (
-17,
-28
+50,
+25
 );
 weightValue = 500;
 widthValue = 5;
-xHeight = 361;
+xHeight = 268;
 }
 );
 glyphs = (
@@ -136114,6 +136107,7 @@ instanceInterpolations = {
 "A14CB8BB-4075-44A2-8ACC-F29FBF19C8BE" = 1;
 };
 name = Medium;
+weightClass = Medium;
 }
 );
 kerning = {
@@ -137648,5 +137642,5 @@ manufacturer = "Robert E. Leuschke";
 manufacturerURL = "http://www.typesetit.com";
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 2;
+versionMinor = 5;
 }
