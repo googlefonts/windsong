@@ -999,15 +999,55 @@ xHeight = 268;
 glyphs = (
 {
 glyphname = .notdef;
-lastChange = "2021-05-20 09:24:46 +0000";
+lastChange = "2021-05-26 12:36:32 +0000";
 layers = (
 {
 layerId = "B8E2B95E-9E44-4943-9D49-9B6A251F446D";
-width = 290;
+paths = (
+{
+closed = 1;
+nodes = (
+"435 0 LINE",
+"435 750 LINE",
+"60 750 LINE",
+"60 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"122 688 LINE",
+"372 688 LINE",
+"372 63 LINE",
+"122 63 LINE"
+);
+}
+);
+width = 495;
 },
 {
 layerId = "A14CB8BB-4075-44A2-8ACC-F29FBF19C8BE";
-width = 290;
+paths = (
+{
+closed = 1;
+nodes = (
+"435 0 LINE",
+"435 750 LINE",
+"60 750 LINE",
+"60 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"122 688 LINE",
+"372 688 LINE",
+"372 63 LINE",
+"122 63 LINE"
+);
+}
+);
+width = 495;
 }
 );
 note = .notdef;
@@ -137642,5 +137682,5 @@ manufacturer = "Robert E. Leuschke";
 manufacturerURL = "http://www.typesetit.com";
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 5;
+versionMinor = 10;
 }
